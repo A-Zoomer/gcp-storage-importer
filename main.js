@@ -33,7 +33,7 @@ function main(fileLocation, bucketName, destFileName, keyFile) {
 
 //FIXME::
 //argv.lenght return all line arguments, need to count only after command name
-if (process.argv.length < 3) {
+if (process.argv.length < 5) {
   console.error(process.argv.length);
   console.error('Expected at least one argument!');
   process.exit(1);
